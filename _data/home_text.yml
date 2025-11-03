@@ -1,5 +1,7 @@
 # text goes in the main page
 # each paragraph start with '-'
 
-- lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.
-- The Model Decisions Lab is directed by <a href="http://users.eecs.northwestern.edu/~jhullman/index.html">Jessica Hullman</a> of Northwestern University.
+- <em>We model decisions made with and by model predictions, with an aim of achieving "model" decisions&mdash;those that optimally combine human domain knowledge and causal flexibility with the strengths of modern AI.</em>
+- As impressive but often brittle new AI capabilities emerge, we need rigorous methods for combining and evaluating human and artificial intelligence. Models present us with new inputs to important decisions&mdash;about health, science, politics, and so on&mdash;but how do we identify their potential to improve existing processes or diagnose sources of real-world use? How do we pinpoint and preserve unique aspects of human problem solving, and design for the complementary strengths of different agents working together on complex decision problems?
+- Our lab pursues statistical foundations for collaboration with AI. Our goal is to ground approaches to AI-assisted decision-making, interpretability, explainability, uncertainty quantification, and related topics in theoretical frameworks for inference and decision-making, so that we can make the most of AI for real-world problems.
+- If you're passionate about the science of AI interaction, join us at Northwestern! We are currently recruiting Ph.D. students and researchers to join our lab. More info here.
