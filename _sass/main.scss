@@ -539,3 +539,15 @@ header.default {
   overflow: hidden;
   border-radius: 0.25rem;
 }
+
+/* --- HOMEPAGE LINK FIX --- */
+.home-display p a {
+  color: #FF4D00 !important;   /* or inherit, depending on what you want */
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.home-display p a:hover {
+  color: #FF4D00 !important;
+  text-decoration: underline;
+}

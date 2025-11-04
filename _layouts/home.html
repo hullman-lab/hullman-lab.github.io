@@ -31,7 +31,7 @@
   <section class="home-display">
     <div class="container">
       {% for text in site.data.home_text %}
-      <p>{{text}}</p>
+      <p>{{text | markdownify}}</p>
       {% endfor %}
     </div>
   </section>
