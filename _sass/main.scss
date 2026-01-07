@@ -125,9 +125,15 @@ header.default {
   }
 
   img.logo {
-    display: inline;
+    // display: inline;
+    // width: auto;
+    // margin-right: 1rem;
+    display: block;
     width: auto;
+    max-width: 100%;
+    object-fit: contain;
     margin-right: 1rem;
+
 
     @media screen and (min-width: $xlg) {
       height: 4rem;
