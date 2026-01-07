@@ -1,28 +1,27 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
+<html lang="{{ site.lang | default: "en-US" }}">
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <title>{{ page.title }} - {{ site.title }}</title>
   <meta name="generator" content="Jekyll v3.9.2" />
-  <meta property="og:title" content="Model Decisions Lab" />
+  <meta property="og:title" content="Epistemic Interactions Lab" />
   <meta property="og:locale" content="en_US" />
-  <meta name="description" content="Model Decisions Lab is a research lab in Northwestern University." />
-  <meta property="og:description" content="Model Decisions Lab is a research lab in Northwestern University." />
-  <!-- #TODO: update canonical URLs when domain is finalized -->
-  <link rel="canonical" href="http://mucollective.co/" />
-  <meta property="og:url" content="http://mucollective.co/" />
-  <!-- #TODO -->
-  <meta property="og:site_name" content="Model Decisions Lab" />
+  <meta name="description" content="Epistemic Interactions Lab is a research lab at Northwestern University." />
+  <meta property="og:description" content="Epistemic Interactions Lab is a research lab at Northwestern University." />
+  <link rel="canonical" href="https://hullmanlab.northwestern.edu/" />
+  <meta property="og:url" content="https://hullmanlab.northwestern.edu/" />
+  <meta property="og:site_name" content="Epistemic Interactions Lab" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary" />
-  <meta property="twitter:title" content="Model Decisions Lab" />
+  <meta name="twitter:title" content="Epistemic Interactions Lab" />
+  <meta name="twitter:description" content="Epistemic Interactions Lab is a research lab at Northwestern University." />
   <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Model Decisions Lab is a research lab in Northwestern University.","headline":"Model Decisions Lab","name":"Model Decisions Lab","url":"http://mucollective.co/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"Epistemic Interactions Lab is a research lab at Northwestern University.","headline":"Epistemic Interactions Lab","name":"Epistemic Interactions Lab","url":"https://hullmanlab.northwestern.edu/"}</script>
 
   <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
-  <link rel="shortcut icon" type="image/png" href="{{ "assets/images/favicon.png" | relative_url }}">
+  <link rel="shortcut icon" type="image/png" href="{{ 'assets/images/favicon.png' | relative_url }}">
 </head>
 
 <body>
@@ -31,9 +30,9 @@
     <section class="paper-header">
       {% if page.category contains "paper" %}
       <small>Paper</small>
-      {% else if page.category contains "book-chapter" %}
+      {% elsif page.category contains "book-chapter" %}
       <small>Book chapter</small>
-      {% else if page.category contains "book" %}
+      {% elsif page.category contains "book" %}
       <small>Book</small>
       {% endif %}
       <h2 class="paper-title">{{ page.title }}</h2>
@@ -77,20 +76,20 @@
             d="m14.12 6.576 1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 0 1-.534 0L.165 7.968a.299.299 0 0 1 0-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z" />
         </svg> Additional content</h4>
       {% if page.pdf %}
-      <a href="../../../../{{page.pdf}}" target="_balnk">PDF</a>
+      <a href="../../../../{{page.pdf}}" target="_blank">PDF</a>
       {% endif %}
 
       {% if page.supplementary %}
-      <a href="{{page.supplementary}}" target="_balnk">Supplementary Material</a>
+      <a href="{{page.supplementary}}" target="_blank">Supplementary Material</a>
       {% endif %}
 
       {% if page.github %}
-      <a href="{{page.github}}" target="_balnk">GitHub</a>
+      <a href="{{page.github}}" target="_blank">GitHub</a>
       {% endif %}
 
       {% if page.additionals %}
       {% for add in page.additionals %}
-      <a href="{{add.link}}" target="_balnk">{{add.name}}</a>
+      <a href="{{add.link}}" target="_blank">{{add.name}}</a>
       {% endfor %}
       {% endif %}
     </section>
