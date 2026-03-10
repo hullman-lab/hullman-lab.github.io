@@ -54,43 +54,38 @@ current_phd:
 #     image: assets/images/people-noah-shen.jpeg
 
 alumni:
-  - name: Paula Kayongo
+  - name: Paula Kayongo (PhD)
     position: Research Scientist at Uber Technologies, Inc.
-  - name: Abhraneel Sarma
+  - name: Abhraneel Sarma (PhD)
     position: Postdoc at TU Graz
     link: https://abhsarma.github.io/
-  - name: Priyanka Nanayakkara
+  - name: Priyanka Nanayakkara (PhD)
     position: Postdoc at Harvard University
     link: https://priyakalot.github.io/
-  - name: Hyeok Kim
+  - name: Hyeok Kim (PhD)
     position: Postdoc at University of Washington
     link: https://hyeok.me/
-  - name: Dongping Zhang
+  - name: Dongping Zhang (PhD)
     position: Research Scientist at Endeavor Health
     link: https://www.dpzhang.com/
-  - name: Angelos Chatzimparmpas
+  - name: Angelos Chatzimparmpas (Postdoc)
     position: Faculty at Utrecht University
     link: https://www.angeloschatzimparmpas.com/
-  - name: Noah Shen
-    position: Data Scientist at Intelligent Medicine Exchange
-    link: https://noahshen.com/
-  - name: Alex Kale
+  - name: Alex Kale (PhD)
     position: Faculty at University of Chicago
     link: https://people.cs.uchicago.edu/~kalea/
-  - name: Yea-Seul Kim
-    position: Faculty at University of Wisconsin &rarr; Visualization Specialist at Apple Inc.
+  - name: Yea-Seul Kim (PhD)
+    position: Faculty at University of Wisconsin &rarr; Research Scientist at Apple
     link: https://www.linkedin.com/in/yeaseulkim/
-  - name: Alireza Karduni
+  - name: Alireza Karduni (Postdoc)
     position: Faculty at Simon Fraser University
     link: https://www.karduni.com/
-  - name: Emily Wall
+  - name: Emily Wall (Postdoc)
     position: Faculty at Emory University
     link: https://emilywall.github.io/
-  - name: Lace Padilla
+  - name: Lace Padilla (Postdoc)
     position: Faculty at Northeastern University
     link: https://www.lacepadilla.com/
-  - name: Emily Qiao
-    position: MP Biomedicals
-  - name: Francis Nguyen
+  - name: Francis Nguyen (UG)
     position: PhD student at University of British Columbia
     link: https://fmnguyen.com/
