@@ -8,6 +8,7 @@ thumb: "assets/images/paper-thumb-rational-agent.png"
 banner: "assets/images/paper-banner-rational-agent.png"
 caption: "The estimated payoffs by rational agent framework in Kale et al. for 100 simulated experiments in which behavioral agents make decisions (behavioral decision score, green) and report PoS judgments (PoS raw score, purple, and adjusted calibrated PoS score,orange) by visualization condition with means added and without. The rational agent benchmark and the rational agent baseline are shown as dotted lines."
 pdf: "assets/papers/2023-rational-agent.pdf"
+github: "https://github.com/Guoziyang27/rational_framework"
 ---
 
 <!-- abstract -->

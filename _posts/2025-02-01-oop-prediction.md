@@ -8,6 +8,7 @@ thumb: "assets/images/paper-thumb-oop-prediction.png"
 banner: "assets/images/paper-banner-oop-prediction.png"
 caption: "Given an old domain  <i>D</i><sub><i>old</i></sub> and a new domain <i>D</i><sub><i>new</i></sub>, model-assisted judgmental bootstrapping is a five-step process. (a) Based on the target case in the new domain, an expert identifies a set of predictor values to input into the old-domain model in order to obtain a prediction that the expert can consult later. (b) The old-domain model creates a prediction for the input designated. (c) The expert reviews the output in light of the inputs and records their best estimate for the target case in the new domain. (d) When a sufficient number of pairs of expert estimates and new cases are in hand, they are used to train a judgmental bootstrapping model to predict the expert's estimates. (e) The bootstrapping model is ready to forecast new cases in the new domain."
 pdf: "assets/papers/2025-oop-prediction.pdf"
+github: "https://github.com/mdahardy/judgmental-bootstrapping"
 ---
 
 <!-- abstract -->

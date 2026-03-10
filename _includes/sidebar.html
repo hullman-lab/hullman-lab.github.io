@@ -1,0 +1,9 @@
+<aside class="sidebar">
+  <div class="sidebar-inner">
+    <nav class="sidebar-nav">
+      {% for menu in site.data.menu %}
+      <a href="{{ menu.path | relative_url }}">{{ menu.name }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</aside>

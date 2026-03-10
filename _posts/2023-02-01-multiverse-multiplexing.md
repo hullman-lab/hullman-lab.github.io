@@ -8,7 +8,11 @@ thumb: "assets/images/paper-thumb-multiverse-multiplexing.png"
 banner: "assets/images/paper-banner-multiverse-multiplexing.png"
 caption: "User can define procedural dependencies between options with the %when% operator. Users can also reuse parameter names for decisions which manifest in more than one location."
 pdf: "assets/papers/2023-multiverse-multiplexing.pdf"
+github: "https://github.com/MUCollective/multiverse"
 honorable: true
+additionals:
+  - name: "CRAN"
+    link: "https://cran.r-project.org/web/packages/multiverse/index.html"
 ---
 
 <!-- abstract -->

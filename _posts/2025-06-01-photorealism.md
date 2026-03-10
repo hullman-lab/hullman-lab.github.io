@@ -8,6 +8,7 @@ thumb: "assets/images/paper-thumb-photorealism.png"
 banner: "assets/images/paper-banner-photorealism.png"
 caption: "Distribution of accuracy scores for real and AI-generated images with example images representing different accuracy levels."
 pdf: "assets/papers/2025-photorealism.pdf"
+github: "https://github.com/negarkamali/Replication-for-Characterizing-Photorealism-2025"
 ---
 
 <!-- abstract -->

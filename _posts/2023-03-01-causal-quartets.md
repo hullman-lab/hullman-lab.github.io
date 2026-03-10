@@ -8,6 +8,7 @@ thumb: "assets/images/paper-thumb-causal-quartets.png"
 banner: "assets/images/paper-banner-causal-quartets.png"
 caption: "Causal quartets showing possible patterns of random variation (left) and systematic variation (right) for an estimated average treatment effect of 0.1. The upper plots summarize possible individual-level treatment effects. The lower plots depict what these effects might look like in observables space under each treatment."
 pdf: "assets/papers/2023-causal-quartets.pdf"
+github: "https://github.com/jhullman/causalQuartet"
 ---
 
 <!-- abstract -->

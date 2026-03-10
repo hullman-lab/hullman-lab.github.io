@@ -127,6 +127,7 @@ h3.paper-year-title {
 .paper-header,
 .paper-content,
 .paper-banner,
+.paper-links,
 .paper-footer {
   margin: 0 auto 1rem 0;
   width: 100%;
@@ -329,4 +330,44 @@ article.hidden,
 article.filter-hidden,
 .post-cat-title.filter-hidden {
   display: none;
+}
+
+// ── Paper detail page: prominent links bar ────────────────────────────────────
+
+.paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1.75rem;
+}
+
+.paper-link {
+  display: inline-block;
+  padding: 0.45rem 1.1rem;
+  border: 1.5px solid #cccccc;
+  border-radius: 0.25rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333333;
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s;
+
+  &:hover {
+    border-color: $key-color;
+    color: $key-color !important;
+    text-decoration: none;
+  }
+}
+
+.paper-link-primary {
+  background-color: $key-color;
+  border-color: $key-color;
+  color: #ffffff !important;
+  font-weight: 600;
+
+  &:hover {
+    background-color: darken($key-color, 8%);
+    border-color: darken($key-color, 8%);
+    color: #ffffff !important;
+  }
 }

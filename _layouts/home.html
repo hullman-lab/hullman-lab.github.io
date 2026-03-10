@@ -6,20 +6,23 @@
   <meta charset="utf-8">
   <title>{{ page.title }} - {{ site.title }}</title>
   <meta name="generator" content="Jekyll v3.9.2" />
-  <meta property="og:title" content="Epistemic Interactions Lab" />
+  <meta property="og:title" content="Epistemic Decisions" />
   <meta property="og:locale" content="en_US" />
-  <meta name="description" content="Epistemic Interactions Lab is a research lab at Northwestern University." />
-  <meta property="og:description" content="Epistemic Interactions Lab is a research lab at Northwestern University." />
+  <meta name="description" content="Epistemic Decisions is a research lab at Northwestern University." />
+  <meta property="og:description" content="Epistemic Decisions is a research lab at Northwestern University." />
   <link rel="canonical" href="https://hullmanlab.northwestern.edu/" />
   <meta property="og:url" content="https://hullmanlab.northwestern.edu/" />
-  <meta property="og:site_name" content="Epistemic Interactions Lab" />
+  <meta property="og:site_name" content="Epistemic Decisions" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Epistemic Interactions Lab" />
-  <meta name="twitter:description" content="Epistemic Interactions Lab is a research lab at Northwestern University." />
+  <meta name="twitter:title" content="Epistemic Decisions" />
+  <meta name="twitter:description" content="Epistemic Decisions is a research lab at Northwestern University." />
   <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Epistemic Interactions Lab is a research lab at Northwestern University.","headline":"Epistemic Interactions Lab","name":"Epistemic Interactions Lab","url":"https://hullmanlab.northwestern.edu/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"Epistemic Decisions is a research lab at Northwestern University.","headline":"Epistemic Decisions","name":"Epistemic Decisions","url":"https://hullmanlab.northwestern.edu/"}</script>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}">
   <link rel="icon" type="image/png" sizes="32x32"
       href="{{ 'assets/images/favicon-32x32.png' | relative_url }}">
@@ -28,20 +31,23 @@
 </head>
 
 <body>
-  {% include header.html %}
-
-  <section class="home-display">
-    <div class="container">
-      {% for text in site.data.home_text %}
-      <p>{{text | markdownify}}</p>
-      {% endfor %}
+  {% include topnav.html %}
+  <div class="site-wrap">
+    {% include sidebar.html %}
+    <div class="main-wrap">
+      <section class="home-display">
+        <div class="container">
+          {% for text in site.data.home_text %}
+          <p>{{text | markdownify}}</p>
+          {% endfor %}
+        </div>
+      </section>
+      <main class="container">
+        {{ content }}
+      </main>
+      {% include footer.html %}
     </div>
-  </section>
-  <main class="container">
-    {{ content }}
-  </main>
-  {% include footer.html %}
-
+  </div>
 </body>
 
 </html>

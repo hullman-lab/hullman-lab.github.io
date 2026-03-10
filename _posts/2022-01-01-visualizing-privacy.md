@@ -8,6 +8,7 @@ thumb: "assets/images/paper-thumb-visualizing-privacy.gif"
 banner: "assets/images/paper-banner-visualizing-privacy.png"
 caption: "Differentially private mechanisms can be used to calculate statistics in a way that preserves the privacy of those whose information is represented in the dataset. Using these mechanisms, however, requires setting privacy budgets, a task for which there is little to no formal guidance. We introduce an interactive visualization interface, Visualizing Privacy (ViP), which is designed to assist a practitioner in considering multiple probabilistic trade-offs to set context-appropriate privacy budgets both for privacy-preserving point estimates and privacy-preserving confidence intervals."
 pdf: "assets/papers/2022-visualizing-privacy.pdf"
+github: "https://github.com/priyakalot/ViP-demo"
 ---
 
 <!-- abstract -->

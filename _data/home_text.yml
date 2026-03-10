@@ -2,9 +2,8 @@
 # each paragraph start with '-'
 
 - As impressive new AI capabilities emerge, we need new methods for appraising and combining human and artificial intelligence.
-- <em><strong>Statistical foundations for human-AI complementarity.</strong></em> Models present us with new inputs to important decisions, but how do we pinpoint and design for the complementary strengths of different agents working together on complex decision problems?
-- <em><strong>Beliefs and uncertainty quantification.</strong></em> How do we know what a model knows? How do we quantify uncertainty in its outputs in principled and human aligned ways?
-- <em><strong>Model explanations and interpretability.</strong></em> What does a rigorous science for communicating and making sense of model internals look like?
-- <em><strong>AI for behavioral science.</strong></em> How can integrating AI in the scientific process stimulate researchers' imagination while avoiding new threats to validity?
+- <em><strong>Statistical foundations for multi-agent decision-making.</strong></em> Models present us with new inputs to important decisions, but how do we pinpoint and design for the complementary strengths of different agents working together on complex decision problems?
+- <em><strong>Beliefs, explanations, and uncertainty.</strong></em> How do we know what a model knows? How do we teach it to explain itself well? How do we quantify uncertainty in its outputs in principled and human aligned ways?
+- <em><strong>AI for science.</strong></em> How should behavioral science methods be adapted to allow for use of LLM simulations? What are the risks to scientific progress of AI-automated production and evaluation of research?
 - Our lab has received numerous paper awards and PhDs have gone on to tenure track faculty positions at highly ranked CS departments. If you're obsessed with doing rigorous work on these topics, consider applying to work with the lab.
 # - If you're passionate about the science of AI interaction, join us at Northwestern! We are currently recruiting Ph.D. students and researchers to join our lab. More info [here](/join-the-lab).
