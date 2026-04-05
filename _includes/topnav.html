@@ -7,4 +7,9 @@
     />
     <span class="top-header-title">Epistemic Decisions Lab</span>
   </a>
+  <nav class="top-nav">
+    {% for menu in site.data.menu %}
+    <a href="{{ menu.path | relative_url }}"{% if page.url contains menu.path %} class="active"{% endif %}>{{ menu.name }}</a>
+    {% endfor %}
+  </nav>
 </header>
