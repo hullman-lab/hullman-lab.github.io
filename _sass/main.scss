@@ -536,6 +536,11 @@ header.default {
     a {
       color: inherit !important;
     }
+
+    em strong, strong em {
+      color: $key-color;
+      font-style: normal;
+    }
   }
 }
 
