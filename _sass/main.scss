@@ -478,28 +478,28 @@ header.default {
   @media screen and (min-width: $xlg) {
     padding: 1rem 0;
     margin-bottom: 2.5rem;
-    font-size: 1.1rem;
-    line-height: 150%;
+    font-size: 1.35rem;
+    line-height: 155%;
   }
 
   @media screen and (max-width: $xlg) {
     padding: 1rem 0;
     margin-bottom: 2rem;
-    font-size: 1.1rem;
-    line-height: 150%;
+    font-size: 1.3rem;
+    line-height: 155%;
   }
 
   @media screen and (max-width: $lg) {
     padding: 1rem 0;
     margin-bottom: 1rem;
-    font-size: 1rem;
-    line-height: 150%;
+    font-size: 1.2rem;
+    line-height: 155%;
   }
 
   @media screen and (max-width: $md) {
     padding: 0.5rem 0;
     margin-bottom: 1rem;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     line-height: 150%;
   }
 
@@ -507,8 +507,8 @@ header.default {
     padding: 0.5rem 0;
     margin-top: 0;
     margin-bottom: 0.5rem;
-    font-size: 0.8rem;
-    line-height: 130%;
+    font-size: 1rem;
+    line-height: 145%;
   }
 
   p {
@@ -584,8 +584,11 @@ header.default {
 
     h3 {
       margin: 0 0 1rem 0;
-      font-size: 1.3rem;
+      font-size: 1.6rem;
       font-weight: 700;
+      color: $key-color;
+      border-bottom: 2px solid $key-color;
+      padding-bottom: 0.4rem;
     }
 
     a {
