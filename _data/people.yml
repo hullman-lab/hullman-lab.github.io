@@ -45,6 +45,12 @@ current_phd:
     school: Northwestern University
     image: assets/images/people-huaman-sun.jpeg
     link: https://www.linkedin.com/in/huaman-sun-a44723302/
+  - name: Xuanyou Liu
+    role: PhD Student
+    department: Computer Science
+    school: Northwestern University
+    image: assets/images/people-xuanyou-liu.jpeg
+    link: https://xuanyouliu.com/
 
 # current_masters:
 #   - name: Noah Shen
