@@ -21,18 +21,6 @@ current_phd:
     school: Northwestern University
     image: assets/images/people-ziyang-guo.jpeg
     link: https://guoziyang27.github.io/
-  - name: Negar Kamali
-    role: PhD Student
-    department: Computer Science
-    school: Northwestern University
-    image: assets/images/people-negar-kamali.jpeg
-    link: https://negarkamali.github.io/
-  - name: Xudong Tang
-    role: PhD Student
-    department: Computer Science
-    school: Northwestern University
-    image: assets/images/people-xudong-tang.jpeg
-    link: https://www.linkedin.com/in/xudongtang75/
   - name: Xuanyou Liu
     role: PhD Student
     department: Computer Science
@@ -51,6 +39,20 @@ current_phd:
     school: Northwestern University
     image: assets/images/people-huaman-sun.jpeg
     link: https://www.linkedin.com/in/huaman-sun-a44723302/
+  - name: Negar Kamali
+    role: PhD Student
+    coadvisor: Co-advised with Matt Groh
+    department: Computer Science
+    school: Northwestern University
+    image: assets/images/people-negar-kamali.jpeg
+    link: https://negarkamali.github.io/
+  - name: Xudong Tang
+    role: PhD Student
+    coadvisor: Co-advised with Matt Groh
+    department: Computer Science
+    school: Northwestern University
+    image: assets/images/people-xudong-tang.jpeg
+    link: https://www.linkedin.com/in/xudongtang75/
 
 # current_masters:
 #   - name: Noah Shen

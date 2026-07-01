@@ -47,6 +47,7 @@ title: "People"
     {% include people-item.html
       name=person.name
       role=person.role
+      coadvisor=person.coadvisor
       department=person.department
       school=person.school
       image=person.image

@@ -6,6 +6,7 @@
   <div class="people-info">
     <span class="name">{{include.name}}</span>
     <span class="role">{{include.role}}</span>
+    {% if include.coadvisor %}<span class="coadvisor">{{include.coadvisor}}</span>{% endif %}
     <span class="department">{{include.department}}</span>
     <span class="school">{{include.school}}</span>
     {% if include.link %}
