@@ -1,0 +1,14 @@
+<article class="paper-list-item">
+  <div class="paper-list-image">
+    {% if include.thumb %}
+    <img src="{{ include.thumb | relative_url }}" alt="{{include.title}} thumbnail" />
+    {% endif %}
+  </div>
+  <div class="paper-list-content">
+    <h4>
+      {% if include.link %}<a href="{{ include.link }}" target="_blank">{{ include.title }}</a>{% else %}{{ include.title }}{% endif %}
+    </h4>
+    <span class="authors">{{include.authors}}</span>
+    <span class="venue">{{include.venue}}</span>
+  </div>
+</article>

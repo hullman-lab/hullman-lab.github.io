@@ -1,6 +1,7 @@
 ---
 layout: paper
 category: paper
+featured: true
 title: "Explanations are a Means to an End: Decision Theoretic Explanation Evaluation"
 authors: "Ziyang Guo, Berk Ustun, Jessica Hullman"
 venue: "International Conference on Machine Learning (ICML) 2026"

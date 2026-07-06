@@ -1,6 +1,7 @@
 ---
 layout: paper
 category: paper
+featured: true
 title: "A Decision Theoretic Framework for Measuring AI Reliance"
 authors: "Ziyang Guo, Yifan Wu, Jason Hartline, Jessica Hullman"
 venue: "ACM Conference on Fairness, Accountability, and Transparency (ACM FAccT '24)"

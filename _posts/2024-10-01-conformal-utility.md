@@ -1,6 +1,7 @@
 ---
 layout: paper
 category: paper
+featured: true
 title: "Evaluating the Utility of Conformal Prediction Sets for AI-Advised Image Labeling"
 authors: "Dongping Zhang, Angelos Chatzimparmpas, Negar Kamali, Jessica Hullman"
 venue: "ACM Human Factors in Computing Systems (CHI) 2024"

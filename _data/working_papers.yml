@@ -1,0 +1,9 @@
+# Working papers shown at the top of the Publications page.
+# Add one entry per paper, e.g.:
+#
+# - title: "Paper Title"
+#   authors: "Author One, Author Two"
+#   venue: "Working Paper"
+#   link: "https://arxiv.org/abs/XXXX.XXXXX"
+#   thumb: "assets/images/paper-thumb-example.png"
+[]

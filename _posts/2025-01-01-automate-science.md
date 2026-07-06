@@ -1,6 +1,7 @@
 ---
 layout: paper
 category: paper
+featured: true
 title: "Automating the Practice of Science: Opportunities, Challenges, and Implications"
 authors: "Sebastian Musslick, Laura K Bartlett, Suyog H Chandramouli, Marina Dubova, Fernand Gobet, Thomas L Griffiths, Jessica Hullman, Ross D King, J Nathan Kutz, Christopher G Lucas, Suhas Mahesh, Franco Pestilli, Sabina J Sloman, William R Holmes"
 venue: "Proceedings of the National Academy of Science (PNAS)"

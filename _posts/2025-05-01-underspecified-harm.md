@@ -1,6 +1,7 @@
 ---
 layout: paper
 category: paper
+featured: true
 title: "Underspecified Human Decision Experiments Considered Harmful"
 authors: "Jessica Hullman, Alex Kale, Jason Hartline"
 venue: "ACM Human Factors in Computing Systems (CHI) 2025"

@@ -22,6 +22,20 @@ title: "Publications"
       <button id="clear-all" onclick="clear_all()">Clear all</button>
     </div>
   </div> -->
+  {% if site.data.working_papers.size > 0 %}
+  <div class="title-wrap">
+    <h3>Working Papers</h3>
+  </div>
+  {% for paper in site.data.working_papers %}
+    {% include working-paper-item.html
+      title=paper.title
+      thumb=paper.thumb
+      authors=paper.authors
+      venue=paper.venue
+      link=paper.link
+    %}
+  {% endfor %}
+  {% endif %}
   {% for post in site.posts %}
     {% if post.category contains 'paper' %}
       {% assign currentdate = post.date | date: "%Y" %}
