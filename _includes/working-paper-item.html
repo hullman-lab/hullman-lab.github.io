@@ -9,6 +9,9 @@
       {% if include.link %}<a href="{{ include.link }}" target="_blank">{{ include.title }}</a>{% else %}{{ include.title }}{% endif %}
     </h4>
     <span class="authors">{{include.authors}}</span>
-    <span class="venue">{{include.venue}}</span>
+    <span class="venue"
+      >{{include.venue}} {% if include.pdf %} |
+      <a href="{{include.pdf}}" target="_blank">PDF</a> {% endif %}</span
+    >
   </div>
 </article>

@@ -24,7 +24,7 @@ title: "Publications"
   </div> -->
   {% if site.data.working_papers.size > 0 %}
   <div class="title-wrap">
-    <h3>Working Papers</h3>
+    <h3>Preprints</h3>
   </div>
   {% for paper in site.data.working_papers %}
     {% include working-paper-item.html
@@ -33,6 +33,7 @@ title: "Publications"
       authors=paper.authors
       venue=paper.venue
       link=paper.link
+      pdf=paper.pdf
     %}
   {% endfor %}
   {% endif %}
