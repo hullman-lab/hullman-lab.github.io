@@ -39,6 +39,12 @@ current_phd:
     school: Northwestern University
     image: assets/images/people-huaman-sun.jpeg
     link: https://www.linkedin.com/in/huaman-sun-a44723302/
+  - name: Kirill Skobelev
+    role: PhD Student
+    department: Computer Science
+    school: Northwestern University
+    image: assets/images/people-kirill-skobelev.jpeg
+    link: https://www.skobelev.me/
   - name: Negar Kamali
     role: PhD Student
     coadvisor: Co-advised with Matt Groh
