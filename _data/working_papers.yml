@@ -7,19 +7,19 @@
 #   link: "https://arxiv.org/abs/XXXX.XXXXX"
 #   thumb: "assets/images/paper-thumb-example.png"
 
+- title: "Diagnosing and Improving Probabilistic Reasoning in Large Language Models"
+  authors: "Huaman Sun, Dingcheng Wang, Jason Hartline, Jessica Hullman"
+  venue: "arXiv preprint"
+  link: "https://arxiv.org/abs/2609.38005"
+  pdf: "https://arxiv.org/abs/2609.38005"
+  thumb: "assets/images/paper-thumb-probabilistic-reasoning.png"
+
 - title: "This Human Study Did Not Involve Human Subjects: Validating LLM Simulations as Behavioral Evidence"
   authors: "Jessica Hullman, David Broska, Huaman Sun, Aaron Shaw"
   venue: "arXiv preprint"
   link: "https://arxiv.org/abs/2602.15785"
   pdf: "https://arxiv.org/abs/2602.15785"
   thumb: "assets/images/paper-thumb-llm-simulations.png"
-
-- title: "ComplLLM: Fine-Tuning LLMs to Discover Complementary Signals for Decision-Making"
-  authors: "Ziyang Guo, Yifan Wu, Jason Hartline, Kenneth Holstein, Jessica Hullman"
-  venue: "arXiv preprint"
-  link: "https://arxiv.org/abs/2602.19458"
-  pdf: "https://arxiv.org/abs/2602.19458"
-  thumb: "assets/images/paper-thumb-complllm.png"
 
 - title: "What's a Multiverse Good for Anyway?"
   authors: "Julia M. Rohrer, Jessica Hullman, Andrew Gelman"

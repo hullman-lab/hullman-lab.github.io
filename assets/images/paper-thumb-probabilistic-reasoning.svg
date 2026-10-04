@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1100" width="2400" height="1100"
+     font-family="Helvetica, Arial, sans-serif" xml:space="preserve">
+
+  <rect width="2400" height="1100" fill="#ffffff"/>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 11 6 L 0 11 z" fill="#111111"/>
+    </marker>
+  </defs>
+
+  <!-- PROMPT PANEL -->
+  <rect x="60" y="90" width="780" height="930" rx="18" fill="#ececec"/>
+
+  <text x="100" y="162" font-size="46" fill="#111111">Prompt (excerpt)</text>
+
+  <text x="100" y="246" font-size="34" fill="#666666">Observed data<tspan font-style="italic"> D</tspan></text>
+
+  <g font-family="Courier New, Courier, monospace" font-size="36" fill="#111111">
+    <text x="118" y="310">x = (1, 0, 1)   y = 1</text>
+    <text x="118" y="366">x = (0, 0, 1)   y = 0</text>
+    <text x="118" y="422">x = (1, 1, 1)   y = 1</text>
+    <text x="118" y="478">x = (0, 1, 0)   y = 0</text>
+  </g>
+  <text x="118" y="534" font-size="40" fill="#666666">&#8942;</text>
+
+  <line x1="100" y1="596" x2="800" y2="596" stroke="#bbbbbb" stroke-width="3"/>
+
+  <text x="100" y="664" font-size="34" fill="#666666">Test case<tspan font-style="italic"> x</tspan><tspan font-size="24" dy="9">n+1</tspan></text>
+  <g font-family="Courier New, Courier, monospace" font-size="36" fill="#111111">
+    <text x="118" y="728">x = (1, 1, 0)   y = ?</text>
+  </g>
+
+  <line x1="100" y1="790" x2="800" y2="790" stroke="#bbbbbb" stroke-width="3"/>
+
+  <text x="100" y="858" font-size="34" fill="#666666">Outcome model</text>
+  <text x="118" y="926" font-size="36" fill="#111111">Pr(<tspan font-style="italic">y</tspan>=1 | <tspan font-style="italic">x</tspan>) = <tspan font-style="italic">q</tspan><tspan font-size="26" dy="9">T(x)</tspan></text>
+  <text x="118" y="982" font-size="36" fill="#111111"><tspan font-style="italic">T</tspan>(<tspan font-style="italic">x</tspan>) = # active features</text>
+
+  <!-- MODEL GLYPH -->
+  <line x1="850" y1="555" x2="900" y2="555" stroke="#111111" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <g fill="#111111">
+    <circle cx="965" cy="516" r="34"/>
+    <path d="M 917 606 q 0 -50 48 -50 q 48 0 48 50 z"/>
+  </g>
+  <text x="965" y="668" font-size="38" fill="#111111" text-anchor="middle">LLM</text>
+
+  <!-- fork: two SEPARATE elicitations, nothing connects them -->
+  <path d="M 1013 540 H 1050 V 300 H 1096" fill="none" stroke="#111111" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M 1013 570 H 1050 V 812 H 1096" fill="none" stroke="#111111" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <!-- BELIEF ELICITATION -->
+  <rect x="1110" y="90" width="1230" height="420" rx="18" fill="#ffffff" stroke="#111111" stroke-width="4"/>
+
+  <text x="1160" y="170" font-size="46" fill="#111111">Belief elicitation</text>
+  <text x="1160" y="222" font-size="32" fill="#666666">scored by quadratic rule</text>
+
+  <text x="1160" y="330" font-size="38" fill="#111111">reports<tspan font-style="italic"> p&#770;</tspan></text>
+  <text x="1160" y="392" font-size="34" fill="#666666">may depart from the</text>
+  <text x="1160" y="438" font-size="34" fill="#666666">Bayes-optimal posterior</text>
+
+  <text x="1810" y="172" font-size="34" fill="#444444" text-anchor="middle">true<tspan font-style="italic"> p</tspan>*</text>
+  <line x1="1715" y1="430" x2="1905" y2="430" stroke="#111111" stroke-width="4"/>
+  <rect x="1736" y="370" width="68" height="60" fill="#111111"/>
+  <rect x="1824" y="290" width="68" height="140" fill="#111111"/>
+  <text x="1770" y="470" font-size="30" fill="#444444" text-anchor="middle" font-style="italic">y=0</text>
+  <text x="1858" y="470" font-size="30" fill="#444444" text-anchor="middle" font-style="italic">y=1</text>
+
+  <text x="2110" y="172" font-size="34" fill="#444444" text-anchor="middle">reported<tspan font-style="italic"> p&#770;</tspan></text>
+  <line x1="2015" y1="430" x2="2205" y2="430" stroke="#111111" stroke-width="4"/>
+  <rect x="2036" y="320" width="68" height="110" fill="#888888"/>
+  <rect x="2124" y="340" width="68" height="90" fill="#888888"/>
+  <text x="2070" y="470" font-size="30" fill="#444444" text-anchor="middle" font-style="italic">y=0</text>
+  <text x="2158" y="470" font-size="30" fill="#444444" text-anchor="middle" font-style="italic">y=1</text>
+
+  <!-- DECISION ELICITATION -->
+  <rect x="1110" y="602" width="1230" height="420" rx="18" fill="#ffffff" stroke="#111111" stroke-width="4"/>
+
+  <text x="1160" y="682" font-size="46" fill="#111111">Decision elicitation</text>
+  <text x="1160" y="734" font-size="32" fill="#666666">threshold loss,<tspan font-style="italic"> &#964;</tspan></text>
+
+  <text x="1160" y="842" font-size="38" fill="#111111">chooses<tspan font-style="italic"> a&#770;</tspan> &#8712; {0, 1}</text>
+  <text x="1160" y="938" font-size="36" fill="#111111"><tspan font-style="italic">R</tspan><tspan font-size="26" dy="10">total</tspan><tspan dy="-10" dx="14">=</tspan><tspan font-style="italic" dx="14">R</tspan><tspan font-size="26" dy="10">belief</tspan><tspan dy="-10" dx="14">+</tspan><tspan font-style="italic" dx="14">R</tspan><tspan font-size="26" dy="10">opt</tspan></text>
+
+  <text x="2010" y="700" font-size="32" fill="#444444" text-anchor="middle">expected loss<tspan font-style="italic"> L</tspan>(&#183;, <tspan font-style="italic">p</tspan>*)</text>
+
+  <line x1="1700" y1="940" x2="2300" y2="940" stroke="#111111" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="1750" y1="918" x2="1750" y2="962" stroke="#111111" stroke-width="5"/>
+  <line x1="2020" y1="918" x2="2020" y2="962" stroke="#111111" stroke-width="5"/>
+  <line x1="2200" y1="918" x2="2200" y2="962" stroke="#111111" stroke-width="5"/>
+
+  <text x="1750" y="1002" font-size="32" fill="#111111" text-anchor="middle" font-style="italic">a*</text>
+  <text x="2020" y="1002" font-size="32" fill="#111111" text-anchor="middle" font-style="italic">a<tspan font-size="23" dy="9">p&#770;</tspan></text>
+  <text x="2200" y="1002" font-size="32" fill="#111111" text-anchor="middle" font-style="italic">a&#770;</text>
+
+  <path d="M 1750 876 v -18 h 270 v 18" fill="none" stroke="#111111" stroke-width="4"/>
+  <text x="1885" y="840" font-size="30" fill="#111111" text-anchor="middle"><tspan font-style="italic">R</tspan><tspan font-size="23" dy="9">belief</tspan></text>
+
+  <path d="M 2020 876 v -18 h 180 v 18" fill="none" stroke="#111111" stroke-width="4"/>
+  <text x="2110" y="840" font-size="30" fill="#111111" text-anchor="middle"><tspan font-style="italic">R</tspan><tspan font-size="23" dy="9">opt</tspan></text>
+
+  <path d="M 1750 790 v -18 h 450 v 18" fill="none" stroke="#111111" stroke-width="4"/>
+  <text x="1975" y="754" font-size="30" fill="#111111" text-anchor="middle"><tspan font-style="italic">R</tspan><tspan font-size="23" dy="9">total</tspan></text>
+
+</svg>
