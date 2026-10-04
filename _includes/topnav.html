@@ -7,9 +7,54 @@
     />
     <span class="top-header-title">Epistemic Decisions Lab</span>
   </a>
-  <nav class="top-nav">
+
+  <button
+    class="nav-toggle"
+    type="button"
+    aria-label="Open menu"
+    aria-expanded="false"
+    aria-controls="site-menu"
+  >
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+  </button>
+
+  <nav class="top-nav" id="site-menu">
     {% for menu in site.data.menu %}
     <a href="{{ menu.path | relative_url }}"{% if page.url contains menu.path %} class="active"{% endif %}>{{ menu.name }}</a>
     {% endfor %}
   </nav>
 </header>
+
+<script>
+  (function () {
+    var toggle = document.querySelector('.nav-toggle');
+    var nav = document.getElementById('site-menu');
+    if (!toggle || !nav) return;
+
+    function setOpen(open) {
+      document.body.classList.toggle('nav-open', open);
+      toggle.setAttribute('aria-expanded', String(open));
+      toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    }
+
+    toggle.addEventListener('click', function () {
+      setOpen(!document.body.classList.contains('nav-open'));
+    });
+
+    // Close after tapping a destination.
+    nav.addEventListener('click', function (e) {
+      if (e.target.tagName === 'A') setOpen(false);
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') setOpen(false);
+    });
+
+    // Reset if the viewport grows back to desktop while the overlay is open.
+    window.addEventListener('resize', function () {
+      if (window.innerWidth > 720) setOpen(false);
+    });
+  })();
+</script>

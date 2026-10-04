@@ -3,8 +3,6 @@ layout: default
 title: "Join the lab"
 ---
 
-We are currently recruiting Ph.D. students.
-
 ### Prospective Ph.D. students
 
 Students who want to work with the lab can do so by applying to a Northwestern Ph.D. program:
