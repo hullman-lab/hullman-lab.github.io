@@ -31,19 +31,20 @@ We occasionally involve undergraduates and Master's students in our research. St
 
 <style>
   h3 {
-    max-width: 500px;
-    margin: 2rem auto 0.5rem 0;
+    max-width: 560px;
+    margin: 2.25rem auto 0.6rem 0;
     padding: 0;
     font-weight: 600;
-    line-height: 100%;
-    font-size: 1rem;
+    line-height: 125%;
+    font-size: 1.25rem;
   }
 
   p {
-    max-width: 500px;
+    max-width: 560px;
     font-weight: 400;
     margin: 0 auto 1rem 0;
-    line-height: 130%;
+    line-height: 150%;
+    font-size: 1.15rem;
     color: #454545;
   }
   p.contacts svg {
