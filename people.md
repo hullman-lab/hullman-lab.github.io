@@ -44,6 +44,19 @@ title: "People"
   </div>
   <section class="people-grid">
   {% for person in site.data.people.current_phd %}
+    {% if person.coadvisor %}{% continue %}{% endif %}
+    {% include people-item.html
+      name=person.name
+      role=person.role
+      department=person.department
+      school=person.school
+      image=person.image
+      link=person.link %}
+  {% endfor %}
+  </section>
+  <section class="people-grid people-grid-row">
+  {% for person in site.data.people.current_phd %}
+    {% unless person.coadvisor %}{% continue %}{% endunless %}
     {% include people-item.html
       name=person.name
       role=person.role
