@@ -5,7 +5,7 @@ title: "Join the lab"
 
 ### Prospective Ph.D. students
 
-We are not currently recruiting PhD students.
+We are not currently recruiting.
 
 Students who want to work with the lab can do so by applying to a Northwestern Ph.D. program:
 
