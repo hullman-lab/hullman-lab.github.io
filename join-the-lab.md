@@ -5,6 +5,8 @@ title: "Join the lab"
 
 ### Prospective Ph.D. students
 
+We are not currently recruiting PhD students.
+
 Students who want to work with the lab can do so by applying to a Northwestern Ph.D. program:
 
 [Computer Science](https://www.mccormick.northwestern.edu/computer-science/academics/graduate/phd/) <br/>
