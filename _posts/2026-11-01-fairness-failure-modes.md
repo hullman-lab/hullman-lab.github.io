@@ -11,9 +11,6 @@ banner: "assets/images/paper-banner-fairness-failure-modes.png"
 caption: "An example from MultiBBQ. Each of the three contexts has a negative and a non-negative question, and correct answers are shown. Demographic words are replaced by neutral expressions in ambiguous contexts to avoid shortcut reasoning."
 pdf: "assets/papers/2026-fairness-failure-modes-mllms.pdf"
 github: "https://github.com/mll-lab-nu/MultiBBQ"
-additionals:
-  - name: "Website"
-    link: "https://multibbq.github.io"
 ---
 
 <!-- abstract -->
