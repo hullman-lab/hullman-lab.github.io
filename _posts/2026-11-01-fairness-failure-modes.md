@@ -1,6 +1,8 @@
 ---
 layout: paper
 category: paper
+date: 2026-10-02
+permalink: /paper/2026/11/01/fairness-failure-modes.html
 title: "Fairness Failure Modes of Multimodal LLMs"
 authors: "Canyu Chen, Anglin Cai, Joan Nwatu, Yale Li, Jessica Hullman, Rada Mihalcea, Kathleen McKeown, Manling Li"
 venue: "Conference on Neural Information Processing Systems (NeurIPS) 2026"
