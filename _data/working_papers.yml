@@ -7,6 +7,13 @@
 #   link: "https://arxiv.org/abs/XXXX.XXXXX"
 #   thumb: "assets/images/paper-thumb-example.png"
 
+- title: "Learning Checklists to Reduce Lottery Effects in Scientific Peer Review"
+  authors: "Xuanyou Liu, Ziyang Guo, Jason Hartline, Jessica Hullman"
+  venue: "arXiv preprint"
+  link: "https://arxiv.org/abs/2610.28666"
+  pdf: "https://arxiv.org/abs/2610.28666"
+  thumb: "assets/images/paper-thumb-lottery-checklists.png"
+
 - title: "Diagnosing and Improving Probabilistic Reasoning in Large Language Models"
   authors: "Huaman Sun, Dingcheng Wang, Jason Hartline, Jessica Hullman"
   venue: "arXiv preprint"
